@@ -6,11 +6,10 @@ function HomePage() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Home Page</h1>
+                <h1>Hello, World!</h1>
                 <nav>
-                    <Link to="/second" style={{ color: 'white', fontSize: '20px' }}>
-                        Go to Second Page
-                    </Link>
+                    <Link to="/" style={{ margin: '0 10px', color: 'white' }}>Home</Link>
+                    <Link to="/second" style={{ margin: '0 10px', color: 'white' }}>Second Page</Link>
                 </nav>
             </header>
         </div>
@@ -21,13 +20,10 @@ function SecondPage() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Second Page</h1>
+                <h1>Hello, World! 2</h1>
                 <nav>
-                    <Link to="/" style={{ color: 'white', fontSize: '20px' }}>
-                        Back to Home
-                    </Link>
+                    <Link to="/" style={{ margin: '0 10px', color: 'white' }}>Back to Home</Link>
                 </nav>
-                <p>Try to refresh this page!</p>
             </header>
         </div>
     );
