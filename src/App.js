@@ -16,7 +16,7 @@ function HomePage() {
     );
 }
 
-function SecondPage() {
+function SecondPage( {
     return (
         <div className="App">
             <header className="App-header">
